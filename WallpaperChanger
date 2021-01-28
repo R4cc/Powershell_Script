@@ -1,4 +1,4 @@
-Start-BitsTransfer -Source 'https://i.imgur.com/TdFxhU9.png' -Destination ([Environment]::GetFolderPath("Desktop") + '/hello.png');
+Start-BitsTransfer -Source 'https://i.imgur.com/TdFxhU9.png' -Destination ([Environment]::GetFolderPath("Desktop") + '/DontForgetToLockYourScreen.png');
 
 
 Function Set-WallPaper($Image) {
@@ -38,4 +38,4 @@ public class Params
     $ret = [Params]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $Image, $fWinIni)
  
 };
-Set-WallPaper -Image ([Environment]::GetFolderPath("Desktop") + '/hello.png')
+Set-WallPaper -Image ([Environment]::GetFolderPath("Desktop") + '/DontForgetToLockYourScreen.png')
