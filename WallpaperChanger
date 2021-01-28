@@ -38,6 +38,4 @@ public class Params
     $ret = [Params]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $Image, $fWinIni)
  
 };
-Set-WallPaper -Image ([Environment]::GetFolderPath("Desktop") + '/DontForgetToLockYourScreen.png');
-
-Exit
+Set-WallPaper -Image ([Environment]::GetFolderPath("Desktop") + '/DontForgetToLockYourScreen.png')
